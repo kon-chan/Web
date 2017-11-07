@@ -1,0 +1,252 @@
+/* スマホ画面 */
+@media all and (max-width: 670px) {
+
+	p {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+
+	header {
+		height: 40px;
+	}
+
+	.header-left,
+	.header-left img 
+	{
+		height: 40px;
+		text-align: center;
+	}
+
+	.header-left {
+		float: none;
+	}
+
+	/* header-rightクラスのdisplayをnoneに指定してください */
+	.header-right {
+	    display: none;
+	}
+	  
+	  /* menu-iconクラスのdisplayをblockに指定してください  */
+	  .menu-icon {
+	    display: block;
+	}
+
+	.main-wrapper {
+		height: 400px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.sub-title div {
+		height: auto;
+	}
+
+	.container,
+	#info-wrapper,
+	#event-wrapper,
+	#special-wrapper,
+	#rab-wrapper,
+	#guest-wrapper,
+	#guest-wrapper2 {
+		min-width: 0px;
+		width: auto;
+	}
+
+
+	.function,
+	.info-func,
+	.event-func,
+	.special-func,
+	.rab-func,
+	.guest-func
+	 {
+		width: 100%;
+		height: auto;
+	}
+
+	.event-image,
+	.event-text,
+	.special-image,
+	.special-text,
+	.rab-image,
+	.rab-text,
+	.guest-image,
+	.guest-text
+	 {
+		clear: left;
+	}
+
+	.event-image img,
+	.special-image img,
+	.rab-image img,
+	.guest-image img {
+		height: auto;
+		width: 100%;
+	}
+
+	.special-image img {
+		padding-top: 0.5em;
+	}
+
+	#info-wrapper {
+		height: 450px;
+	}
+
+	#event-wrapper {
+		height: 650px;
+	}
+
+	#special-wrapper {
+		height: 650px;
+	}
+
+	#rab-wrapper {
+		height: 700px;
+	}
+
+	#event-wrapper p,
+	#special-wrapper p,
+	#rab-wrapper p,
+	#guest-wrapper p,
+	#guest-wrapper2 p {
+		line-height: 1.25em;
+	}
+
+	#special-wrapper {
+		padding: 1em;
+	}
+
+	.special-image {
+		padding-top: 0;
+	}
+
+
+	.block-disp {
+		display: none;
+	}
+	.none-disp {
+		display: block;
+	}
+
+	#rab span {
+		top: 17%;
+	}
+
+	.rab-reani {
+		line-height: 1.3em;
+	}
+
+	.rab-text {
+		padding: 1em;
+	}
+
+	#guest-wrapper {
+		height: 1330px;
+	}
+
+	#guest-wrapper2 {
+		height: 900px;
+	}
+
+
+
+
+
+	.team-wrapper ul {
+/* メニュー開閉時アニメーション */
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+
+	label {
+		height: 130px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	label img {
+		display: none;
+	}
+
+
+	.bungeee_bg {
+		background-image: url("../bungee_summit_image/logo/bungeee_logo.png");
+	}
+	.anibeats_bg {
+		background-image: url("../bungee_summit_image/logo/anibeats_logo.png");
+	}
+	.orufura_bg {
+		background-image: url("../bungee_summit_image/logo/orufura_logo.png");
+	}
+	.yabacube_bg {
+		background-image: url("../bungee_summit_image/logo/yabacube_logo.png");
+	}
+	.yoruasobi_bg {
+		background-image: url("../bungee_summit_image/logo/yoruasobi_logo.png");
+	}
+	.df2_bg {
+		background-image: url("../bungee_summit_image/logo/df2_logo.png");
+	}
+	.ssself_bg {
+		background-image: url("../bungee_summit_image/logo/ssself_logo.png");
+	}
+	.ronpan_bg {
+		background-image: url("../bungee_summit_image/logo/ronpan_logo.png");
+	}
+	.yashiani_bg {
+		background-image: url("../bungee_summit_image/logo/yashiani_logo.png");
+	}
+	.okayama_bg {
+		background-image: url("../bungee_summit_image/logo/okayama_logo.png");
+	}
+
+
+
+
+
+	.team-wrapper {
+		width: 100%;
+	}
+
+	.team-func {
+		padding: 1em;
+	}
+
+	
+
+	.team-image {
+		margin: 0;
+	}
+
+	.team-image img {
+		width: 100%;
+	}
+
+	.team-text {
+		margin: 0;
+		clear: left;
+		line-height: 1.4em;
+		width: 100%;
+	}
+
+	.team-image,
+	.team-image {
+		width: auto;
+	}
+
+
+
+
+
+	footer {
+		line-height: 40px;
+		font-size: x-small;
+
+
+}

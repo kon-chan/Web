@@ -1,0 +1,301 @@
+html,body{
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	min-width: 1170px;
+  	margin: 0 auto;
+}
+
+
+/* --ここからヘッダー-- */
+header {
+	height: 70px;
+	padding: 0 15px;
+	margin: 0 auto;
+	background-color: rgb(0,0,0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 15;
+}
+
+.header-left {
+	float: left;
+}
+
+.logo {
+	height: 70px;
+	transition: 0.5s;
+	opacity: 0.8;
+}
+
+.logo:hover {
+	opacity: 1;
+}
+
+.header-right {
+	height: 70px;
+	margin-right: 25px;
+  	float: right;
+}
+
+.header-right li {
+	float: left;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.header-right li:hover {
+	background: rgb(255,204,0);
+}
+
+.header-right a {
+	line-height: 70px;
+	color: white;
+	padding: 0 25px;
+	transition: 0.5s;
+}
+/* --ここまでヘッダー-- */
+
+/*　--ここからトップ-- */
+#top-wrapper {
+	height: 100%;
+}
+
+video {
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	background-size: cover;
+}
+/* --ここまでトップ--*/
+
+/*ここから校訓*/
+#main-wrapper {
+	/*padding: 50px 0;*/
+    height: 500px;
+    text-align: center;
+   /*background-color: gray;*/
+}
+
+.motto {
+	width: 100%;
+	height: 100%;
+}
+
+.school {
+	height: 100%;
+	width: 33.3%;
+	float: left;
+	box-sizing: border-box;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+
+.school img {
+	padding-top: 50px;
+}
+
+.motto1 {
+	background-image: url(motto1.jpg);
+}
+.motto2 {
+	background-image: url(motto3.jpg);
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+.motto3 {
+	background-image: url(motto2.jpg);
+}
+
+.school .caption {
+	width:	100%;
+	height:	100%;
+	font-size: 130%;
+	color: #fff;
+	top: 0;
+	left: 0;
+	position: absolute;
+	text-align:	center;
+}
+
+.caption p {
+	padding: 150px 20px 0 20px;
+}
+
+.caption {
+	transition: 0.5s;
+	opacity: 0;
+}
+.school:hover .caption  {
+	opacity: 1;
+}
+
+
+.school .mask1, .school .mask2 {
+	width: 100%;
+	height:	50%;	/* 高さは半分のサイズ */
+	position: absolute;
+	left: 0;
+	background-color: rgba(0,0,0,0.6);
+	-webkit-transition:	all 0.4s ease;
+	transition:	all 0.4s ease;
+}
+.school .mask1 {
+	top: -50%;	/* 枠の上に置いて表示させない */
+}
+.school:hover .mask1 {
+	top: 0;	/* 下にずらして表示する */
+}
+.school .mask2 {
+	bottom:	-50%;	/* 枠の下に置いて表示させない */
+}
+.school:hover .mask2 {
+	bottom:	0;	/* 上にずらして表示する */
+}
+/*ここまで校訓*/
+
+.image-wrapper {
+	padding-top: 40px;
+	height: 230px;
+	text-align: center;
+	background-color: white;
+}
+
+.image-wrapper img {
+	vertical-align: top;
+}
+
+
+/* --ここから学科紹介-- */
+#index-list {
+	padding: 0;
+	text-align: center;
+}
+
+#index-list li {
+	border-bottom: 1px solid white;
+}
+
+#index-list a {
+	transition: 0.5s;
+	padding-top: 75px;
+	line-height: 200px;
+}
+
+.back-cover {
+	background-size: cover;
+}
+
+.list-item01 {
+	background-image: url(image/list/List_Machine.jpg);
+}
+.list-item01 a:hover {
+	background-color: rgba(255,255,255,0.6);
+}
+
+.list-item02 {
+	background-image: url(image/list/List_Electricity.jpg);
+}
+.list-item02 a:hover {
+	background-color: rgba(255,0,4,0.6);
+}
+
+.list-item03 {
+	background-image: url(image/list/List_Information.jpg);
+}
+.list-item03 a:hover {
+	background-color: rgba(255,64,110,0.6);
+}
+
+.list-item04 {
+	background-image: url(image/list/List_Applied_Chemistry.jpg);
+}
+.list-item04 a:hover {
+	background-color: rgba(238,237,16,0.6);
+}
+
+.list-item05 {
+	background-image: url(image/list/List_Civil_Engineering.jpg);
+}
+.list-item05 a:hover {
+	background-color: rgba(32,148,255,0.6);
+}
+
+.list-item06 {
+	background-image: url(image/list/List_Architecture.jpg);
+}
+.list-item06 a:hover {
+	background-color: rgba(201,0,255,0.6);
+}
+
+.list-item07 {
+	background-image: url(image/list/List_Design.jpg);
+}
+.list-item07 a:hover {
+	background-color: rgba(88,191,63,0.6);
+}
+/* --ここまで学科紹介-- */
+
+/*Google Map 住所表示*/
+#map-wrapper {
+	height: 400px;
+}
+
+#school-wrapper {
+	background: #333333;
+	color: white;
+}
+
+#school-wrapper h1 {
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+th,td {
+  border-top: 1px solid white;
+  margin: 0 25%;
+  padding: 20px 82px;
+}
+
+table {
+	line-height: 30px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+footer {
+	height: 65px;
+	background-color: rgb(0,0,0);
+	padding: 0 15px;
+}

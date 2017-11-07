@@ -1,0 +1,941 @@
+html,body{
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	margin: 0;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+
+h2{
+	margin: 0;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+
+h2 span {
+		white-space: nowrap;
+	}
+
+h3 {
+	margin: 0;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+
+.container {
+	width: 100%;
+	min-width: 1170px;
+  	margin: 0 auto;
+}
+
+.background-color {
+	background: rgb(242, 242, 242);
+}
+
+.function {
+	color: #434759;
+	width: 50%;
+	margin-bottom: 30px;
+
+	padding: 1em 1em;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+
+
+
+header {
+	height: 70px;
+	padding: 0 15px;
+	margin: 0 auto;
+	background-color: rgb(0,0,0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 15;
+}
+
+.header-left {
+	float: left;
+	transition: 0.5s;
+}
+.header-left,
+.header-left img {
+	height: 70px;
+}
+
+.header-left:hover {
+	opacity: 0.6;
+}
+
+.header-right {
+	height: 70px;
+	margin-right: 25px;
+  	float: right;
+}
+
+.header-right li {
+	float: left;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.header-right li:hover {
+	background: rgb(255,204,0);
+}
+
+.header-right .special-18if:hover {
+	background: #E0005C;
+}
+
+.header-right a {
+	line-height: 70px;
+	color: white;
+	padding: 0 25px;
+	transition: 0.5s;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  
+}
+
+
+
+
+
+
+.main-wrapper {
+	height: 700px;
+	padding: 0;
+	background-size: cover;
+	background-image: url("../bungee_summit_image/logo/bungeee_summit.jpeg");
+}
+
+
+.sub-title {
+	text-align: center;
+}
+
+.sub-title div {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    line-height: 53px;
+    margin-top: 20px;
+}
+
+.sub-title .box {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+
+
+#info-wrapper {
+	width: 50%;
+	margin: 20px auto;
+	height: 400px;
+	min-width: 1170px;
+}
+
+#info-wrapper {
+	text-align: center;
+    padding: 1em 1em;
+    color: #434759;
+    background: white;
+    border-top: solid 5px #9F68E8;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+
+.info-text h1,
+.info-text h2 {
+	padding: 10px 0;
+}
+
+.info-text p {
+	line-height: 1.6em;
+}
+.info-text a {
+	margin-top: 20px;
+	width: 200px;
+}
+.info-box {
+	background: #9F68E8;
+}
+.info_link {
+	border: solid 2px #9F68E8;
+	color: #9F68E8;
+}
+.info_link:hover {
+	background: #9F68E8;
+}
+
+
+
+
+
+
+
+#info,
+#event,
+#special,
+#rab,
+#guest,
+#guest2{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#event-wrapper {
+	width: 50%;
+	margin: 20px auto;
+	height: 430px;
+	min-width: 1170px;
+}
+
+
+
+
+#event-wrapper {
+    padding: 1em 1em;
+    color: #434759;
+    background: white;
+    border-top: solid 5px #F39800;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+.event-box {
+	background: #F39800;
+}
+
+/* Twitterカラーボタン */
+.event_link {
+	border: solid 2px #00aced;
+	color: #00aced;
+}
+.event_link:hover {
+	background: #00aced;
+}
+
+
+
+
+#event-wrapper p,
+#special-wrapper p,
+#rab-wrapper p,
+#guest-wrapper p,
+#guest-wrapper2 p{
+    margin: 0; 
+    padding: 0;
+    line-height: 1.8em
+}
+
+
+
+.event-func,
+.special-func,
+.rab-func {
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.event-image {
+	float: left;
+}
+
+.event-image img {
+	width: 110%;
+
+}
+
+.event-text {
+	float: left;
+	position: relative;
+	padding-right: 1em;
+}
+.event-text a,
+.special-text a,
+.guest-text a {
+	margin-top: 40px;
+}
+
+
+
+
+
+.none-disp {
+	display: none;
+}
+
+#special-wrapper {
+	width: 50%;
+	margin: 20px auto;
+	height: 430px;
+	min-width: 1170px;
+}
+
+#special-wrapper {
+	padding: 1.3em 1.3em;
+    color: #231815;
+    background: white;
+    border-top: solid 5px #E0005C;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+
+
+
+.special-text {
+	float: left;
+}
+
+.special-image {
+	float: left;
+	padding: 0 1em 1em 1.3em;
+}
+.special-image img {
+	width: 100%;
+}
+.special-image h2 {
+	padding-bottom: 10px;
+}
+
+
+
+.special-box {
+	background: #E0005C;
+}
+
+.special_link {
+	border: solid 2px #E0005C;
+	color: #E0005C;
+}
+.special_link:hover {
+	background: #E0005C;
+}
+
+
+
+
+
+#rab-wrapper {
+	width: 50%;
+	margin: 20px auto;
+	height: 550px;
+	min-width: 1170px;
+}
+
+
+
+
+#rab-wrapper {
+    padding: 1.4em;
+    color: #434759;
+    background: white;
+    border-top: solid 5px #ED4842;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+
+.rab-image {
+	float: left;
+}
+
+.rab-image img {
+	width: 90%;
+
+}
+
+.rab-text {
+	float: left;
+	position: relative;
+	padding-right: 1em;
+}
+
+.rab-box {
+	background: #ED4842;
+}
+
+
+#guest-wrapper,
+#guest-wrapper2 {
+	width: 50%;
+	margin: 20px auto;
+	height: 550px;
+	min-width: 1170px;
+}
+
+#guest-wrapper2 {
+	height: 580px;
+}
+
+
+
+
+#guest-wrapper,
+#guest-wrapper2 {
+    padding: 1em 1em;
+    color: #434759;
+    background: white;
+    border-top: solid 5px #9C2DE8;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+.guest-box {
+	background: #9C2DE8;
+}
+
+/* Twitterカラーボタン */
+.guest_link {
+	border: solid 2px #00aced;
+	color: #00aced;
+}
+.guest_link:hover {
+	background: #00aced;
+}
+.guest-image {
+	width: 30%;
+	float: left;
+	padding: 1em;
+}
+
+.guest-image img {
+	width: 100%;
+
+}
+
+.guest-func {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.guest-text {
+	width: 70%;
+	float: left;
+	position: relative;
+	padding: 1em;
+}
+
+
+
+
+.square_btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 2px;
+    border-radius: 3px;
+    transition: .4s;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.square_btn:hover {
+    color: white;
+}
+
+.twitter {
+	width: 200px;
+	padding: 1px;
+	margin: 8px 0;
+	border: solid 2px #00aced;
+	color: #00aced;
+}
+.twitter:hover {
+    background: #00aced;
+}
+
+.facebook {
+	width: 200px;
+	padding: 1px;
+	margin: 8px 0;
+	border: solid 2px #305097;
+	color: #305097;
+}
+.facebook:hover {
+	background: #305097;
+}
+.soundcloud {
+	width: 200px;
+	padding: 1px;
+	margin: 8px 0;
+	border: solid 2px #ff7700;
+	color: #ff7700;
+}
+.soundcloud:hover {
+	background: #ff7700;
+}
+
+.mixbomb {
+	width: 200px;
+	padding: 1px;
+	margin: 8px 0;
+	border: solid 2px #FF98C3;
+	color: #FF98C3;
+}
+.mixbomb:hover {
+	background: #FF98C3;
+}
+
+.idps {
+	width: 200px;
+	padding: 1px;
+	margin: 8px 0;
+	border: solid 2px #80E08B;
+	color: #80E08B;
+}
+.idps:hover {
+	background: #80E08B;
+}
+
+
+
+.team-box {
+	background: #5d627b;
+}
+
+
+
+.team-wrapper {
+	width: 50%;
+}
+
+
+/* テームロゴのサイズ指定 */
+label img {
+	height: 100%;
+	margin: 0;
+}
+
+/* dj-wrapper の width */
+label,
+.team-wrapper ul {
+	width: 100%;
+}
+
+
+
+
+label {
+	height: 180px;	/* ロゴheight */
+    display: block;
+    margin: 30px 0 10px 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor :pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+
+input[type="checkbox"].bellows{
+    display: none;/* チェックボックスの非表示 */
+}
+ 
+.team-wrapper ul {
+/* メニュー開閉時アニメーション */
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ 
+ 
+ .team-wrapper ul {
+	margin: 0;
+	width: 100%;
+
+    background: white;
+
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    box-sizing: border-box;
+}
+
+.team-wrapper li {
+	list-style: none;
+	clear: left;
+}
+.team-wrapper ul .team-wrapper li {
+	background: #fff;
+}
+
+
+ 
+/* ▽▽アコーディオン開閉指定▽▽ */
+input[type="checkbox"].bellows + ul{
+    max-height: 0;/* チェックが入っていない時の高さ */
+    overflow: hidden;
+}
+ 
+input[type="checkbox"].bellows:checked + ul{
+    max-height: 420em;/* チェックが入っているときの高さ */
+    /*min-height: 50em;*/
+}
+/* △△アコーディオン開閉指定△△ */
+
+
+.dj-image {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.dj-image img {
+	height: 260px;
+}
+
+.dj-text {
+	text-align: center;
+	padding: 10px 23px 15px 23px;
+}
+
+.dj-text h2 {
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+.dj-team {
+	padding: 4px 0;
+	text-align: center;
+	margin: 0;
+}
+
+.dj-comment {
+	padding-top: 20px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid black;
+	text-align: left;
+	margin: 0;
+}
+
+
+/* チーム紹介 */
+.team-intro {
+	padding-top: 35px;
+}
+
+.team-image {
+
+}
+
+
+.team-text p {
+	margin: 0;
+}
+.team-text a {
+	margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+.team-image {
+    margin: 0px 2%;
+}
+.team-image img {
+	width: 100%;
+}
+
+.team-func {
+    box-sizing: border-box;
+    float: left;
+    width: 46%;
+}
+.team-text {
+    float: left;
+    height: 100%;
+    line-height: 1.8em;
+    margin: 0px 2%;
+}
+
+.team-func {
+    box-sizing: border-box;
+    float: left;
+    width: 46%;
+}
+
+
+.center {
+	text-align: center;
+}
+
+
+
+/* バンジー */
+.bungeee_bg:hover {
+	background-color: #8DE081;
+}
+.bungee {
+	border-top: solid 5px #8DE081;
+}
+.bungee_link {
+	border: solid 2px #8DE081;
+	color: #8DE081;
+}
+.bungee_link:hover {
+	background: #8DE081;
+}
+
+
+/* アニビー */
+.anibeats_bg:hover {
+	background-color: rgba(247,216,100,0.6);
+}
+.anibeats {
+	border-top: solid 5px #F7D864;
+}
+.anibeats_link {
+	border: solid 2px #F7D864;
+	color: #F7D864;
+}
+.anibeats_link:hover {
+	background: #F7D864;
+}
+
+
+/* オルフラ */
+.orufura_bg:hover {
+	background-color: rgba(135,142,235,0.6);
+}
+.orufura {
+	border-top: solid 5px #878EEB;
+}
+.orufura_link {
+	border: solid 2px #878EEB;
+	color: #878EEB;
+}
+.orufura_link:hover {
+	background: #878EEB;
+}
+
+
+/* やばきゅーぶ */
+.yabacube_bg:hover {
+	background-color: rgba(255,152,195,0.6);
+}
+.yabacube {
+	border-top: solid 5px #FF98C3;
+}
+.yabacube_link {
+	border: solid 2px #FF98C3;
+	color: #FF98C3;
+	width: 200px;
+}
+.yabacube_link:hover {
+	background: #FF98C3;
+}
+
+
+/* 夜アソビ */
+.yoruasobi_bg:hover {
+	background-color: #E0747E;
+}
+.yoruasobi {
+	border-top: solid 5px #E0747E;
+}
+.yoruasobi_link {
+	border: solid 2px #E0747E;
+	color: #E0747E;
+}
+.yoruasobi_link:hover {
+	background: #E0747E;
+}
+
+
+/* ニジフリフリークス */
+.df2_bg:hover {
+	background-color: rgba(93,98,123,0.6);
+}
+.df2 {
+	border-top: solid 5px #5d627b;
+}
+.df2_link {
+	border: solid 2px #5d627b;
+	color: #5d627b;
+}
+.df2_link:hover {
+	background: #5d627b;
+}
+
+
+/* スリーセルフ */
+.ssself_bg:hover {
+	background-color: rgba(255,134,113,0.6);
+}
+.sssELF {
+	border-top: solid 5px #FF8671;
+}
+.sssELF_link {
+	border: solid 2px #FF8671;
+	color: #FF8671;
+}
+.sssELF_link:hover {
+	background: #FF8671;
+}
+
+
+/* ロンパン */
+.ronpan_bg:hover {
+	background-color: rgba(123,232,106,0.6);
+}
+.ronpan {
+	border-top: solid 5px #7BE86A;
+}
+.ronpan_link {
+	border: solid 2px #7BE86A;
+	color: #7BE86A;
+}
+.ronpan_link:hover {
+	background: #7BE86A;
+}
+
+
+/* やしあに */
+.yashiani_bg:hover {
+	background-color: rgba(113,145,224,0.6);
+}
+.yashiani {
+    border-top: solid 5px #7191E0;
+    box-sizing: border-box;
+}
+
+/* 岡山 */
+.okayama_bg:hover {
+	background-color: rgba(181,121,224,0.6);
+}
+.okayama {
+    border-top: solid 5px #B579E0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ここからMAP */
+
+
+.margin {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+
+.hp_link {
+	width: 260px;
+}
+.hp_link {
+	border: solid 2px #6FC9F7;
+	color: #6FC9F7;
+}
+.hp_link:hover {
+	background: #6FC9F7;
+}
+
+
+.map-wrapper {
+	text-align: center;
+    border-top: solid 5px #6FC9F7;
+}
+.map-box {
+	background: #6FC9F7;
+}
+
+.g-map {
+	margin: 0;
+}
+
+
+.g-map iframe {
+	width: 100%;
+	height: 600px;
+	margin: 30px 0;
+}
+
+
+
+
+.caution-wrapper {
+    border-top: solid 5px #F97C7E;
+}
+
+.caution-box {
+	background: #F97C7E;
+}
+
+
+
+
+
+
+
+
+footer {
+	line-height: 80px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	clear: left;
+}
+
+footer a {
+	color: #337ab7;
+	display: inline;
+}
+
+
+
