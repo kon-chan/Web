@@ -33,6 +33,7 @@ Googleマップを埋め込み住所を表記しています。
 * Civil_Engineering.html
 * Architecture.html
 * Total_Design.html　　
+
 学科紹介ページでは学科長の言葉・実習紹介・カリキュラム・学生の声の4つのコンテンツを制作。
 
 #### 1.3.1 学科紹介ページについて
@@ -54,9 +55,11 @@ Bungeee Summitというイベントの特設サイトを制作しました。
 
 ### 2.1 サイトについて
 西日本で活動しているアニメ系DJイベントが集結する大型イベントの特設サイトです。
-トップページのみの1階層のサイトです。　　
+トップページのみの1階層のサイトです。
+
 以下のhtmlファイルでトップページが開きます。
-* bungeee_summit.html　　
+* bungeee_summit.html
+
 INFORMATION・EVENT CONCEPT・SPECIAL・リアルアキバボーイズ×Re:animation・SPECIAL GUEST,SPECIAL GUEST2・TEAM・ACCESS・CAUTIONの7つのコンテンツを制作。
 
 ### 2.2. コンテンツについて
